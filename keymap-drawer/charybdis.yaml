@@ -21,11 +21,11 @@ layers:
   - {t: K, h: RCTRL}
   - {t: L, h: RALT}
   - {t: ;, h: LGUI}
-  - Z
-  - {t: X, h: Ctl+ X}
-  - {t: C, h: Ctl+ C}
+  - {t: Z, h: Pointer}
+  - X
+  - C
   - V
-  - {t: B, h: Ctl+ V}
+  - {t: B, h: V}
   - N
   - M
   - ','
@@ -36,7 +36,7 @@ layers:
   - {t: RET, h: LGUI}
   - {t: SPACE, h: Number}
   - BSPC
-  Mouse:
+  Pointer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -57,7 +57,7 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - Number
   - Symbol
