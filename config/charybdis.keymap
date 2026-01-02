@@ -157,17 +157,17 @@
   &kp Q        &kp W        &kp E         &kp R              &kp T      &kp Y        &kp U               &kp I         &kp O        &kp P
   &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &kp G      &kp H        &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RALT L  &hmr LGUI SEMI
   &lt 1 Z      &kp X        &kp C         &kp V              &mt V B    &kp N        &kp M               &kp COMMA     &kp DOT      &lt 1 FSLH
-                            &lt 4 ESC     &lt 5 SPACE        &sl 3      &lt 2 ENTER  &sl 2
+                            &lt 4 ESC     &lt 4 SPACE        &sl 3      &lt 2 ENTER  &sl 2
             >;
         };
 
         Pointer {
             display-name = "Pointer";
             bindings = <
-  &trans    &trans    &trans     &trans     &trans      &trans  &trans    &trans    &trans    &trans
-  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans      &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-  &trans    &trans    &mo 3      &mo 2      &trans      &trans  &trans    &trans    &trans    &trans
-                      &mkp MB1   &mkp MB2   &mkp MB3    &trans  &trans
+  &trans    &trans    &trans     &trans          &trans       &trans     &trans           &trans     &trans         &trans
+  &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &trans       &trans     &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_COMMAND
+  &trans    &trans    &trans     &trans          &trans       &trans     &trans           &trans     &trans         &trans
+                      &mkp RCLK  &mkp LCLK       &mkp MCLK    &mkp MCLK  &mkp LCLK
             >;
         };
 
@@ -191,8 +191,8 @@
             >;
         };
 
-        Fun {
-            display-name = "Function";
+        Nav {
+            display-name = "Nav";
             bindings = <
   &kp LC(LA(DEL))  &kp F7  &kp F8  &kp F9  &kp F10    &none  &none      &none      &none     &none
   &none            &kp F4  &kp F5  &kp F6  &kp F11    &none  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI

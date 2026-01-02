@@ -31,8 +31,8 @@ layers:
   - ','
   - .
   - {t: /, h: Pointer}
-  - {t: ESC, h: Function}
-  - {t: SPACE, h: Game}
+  - {t: ESC, h: Nav}
+  - {t: SPACE, h: Nav}
   - {t: Number, h: sticky}
   - {t: ENTER, h: Symbol}
   - {t: Symbol, h: sticky}
@@ -49,29 +49,29 @@ layers:
   - {t: ▽, type: trans}
   - LGUI
   - LALT
-  - LSHFT
   - LCTRL
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
+  - RCTRL
+  - RIGHT ALT
+  - RIGHT COMMAND
   - {type: held}
   - {t: ▽, type: trans}
-  - Number
-  - Symbol
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - R CLK
+  - L CLK
+  - M CLK
+  - M CLK
+  - L CLK
   Symbol:
   - ''
   - ''
@@ -144,7 +144,7 @@ layers:
   - {t: SPACE, type: held}
   - {t: ▽, type: trans}
   - ''
-  Function:
+  Nav:
   - Ctl+Alt+ DEL
   - F7
   - F8
@@ -180,42 +180,8 @@ layers:
   - ''
   - ''
   - ''
-  Game:
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - ''
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - ''
-  - LSHIFT
-  - Z
-  - X
-  - C
-  - V
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - LALT
-  - {t: SPACE, type: held}
-  - M
-  - T
-  - B
+  Game: [ESCAPE, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '&mkp MB1', '&mkp MB2', '&mkp MB3', '', LSHIFT, Z, X, C, V, '1', '2', '3', '4', '5', LALT,
+    SPACE, M, T, B]
   Reset: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
 combos:
 - p: [20, 24]
@@ -227,7 +193,7 @@ combos:
 - p: [7, 8]
   k: {t: Base, h: toggle}
 - p: [27, 28]
-  k: {t: Function, h: sticky}
+  k: {t: Nav, h: sticky}
 - p: [5, 9]
   k: {t: Game, h: toggle}
 - p: [1, 2]
