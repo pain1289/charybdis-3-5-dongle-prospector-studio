@@ -166,7 +166,7 @@
             bindings = <
   &trans    &trans    &trans     &trans          &trans       &trans     &trans           &trans     &trans         &trans
   &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &trans       &trans     &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_COMMAND
-  &trans    &trans    &trans     &trans          &trans       &trans     &trans           &trans     &trans         &trans
+  &trans    &mo 7     &trans     &trans          &trans       &trans     &trans           &trans     &trans         &trans
                       &mkp RCLK  &mkp LCLK       &mkp MCLK    &mkp MCLK  &mkp LCLK
             >;
         };
@@ -211,13 +211,22 @@
             >;
         };
 
-        Reset {
-            display-name = "Reset";
+        Sniper {
+            display-name = "Sniper";
             bindings = <
-  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none
-  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none
-  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none
-                &none  &none  &bootloader    &bootloader  &none
+  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+                &none  &none  &none    &none  &none
+            >;
+        };
+
+        Scroll {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans
             >;
         };
     };
