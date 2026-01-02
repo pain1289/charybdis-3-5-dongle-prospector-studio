@@ -145,41 +145,41 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   Nav:
-  - Ctl+Alt+ DEL
-  - F7
-  - F8
-  - F9
-  - F10
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - F4
-  - F5
-  - F6
-  - F11
-  - ''
-  - LCTRL
-  - LSHFT
-  - LALT
-  - LGUI
-  - ''
-  - F1
-  - F2
-  - F3
-  - DEV TOOLS
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
+  - {t: ▽, type: trans}
+  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT
+  - BACK SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - INS
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Game: [ESCAPE, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '&mkp MB1', '&mkp MB2', '&mkp MB3', '', LSHIFT, Z, X, C, V, '1', '2', '3', '4', '5', LALT,
     SPACE, M, T, B]
   Sniper:
